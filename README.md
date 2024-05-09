@@ -43,4 +43,4 @@
 
 - Запуск приложения:  `npm start`
 
-### Ссылка на демо:
+### Ссылка на демо: [gh-srch-smart.vercel.app ](https://gh-srch-smart.vercel.app/)
