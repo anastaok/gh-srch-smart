@@ -1,0 +1,9 @@
+export const REPOSITORY_NOT_FOUND = "Repository not found";
+export const MAIN_PAGE_TITLE = "Search for repositories on GitHub";
+export const LOADING = "Loading...";
+export const COPY = "Copy";
+export const COPIED = "Copied";
+export const SEARCH_PLACEHOLDER = "Enter the name of the repository...";
+export const FAVORITE_REPOS_TITLE = "Saved Repositories";
+export const LANGUAGE = "Language: ";
+export const DESCRIPTION = "Description: ";

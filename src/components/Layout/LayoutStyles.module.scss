@@ -1,0 +1,13 @@
+.layout {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 1rem;
+  min-height: 100vh;
+  flex-direction: column;
+
+  background: var(--backgroung);
+  background: var(--bckg-grdnt-first);
+  background: var(--bckg-grdnt-second);
+  background: var(--bckg-grdnt-third);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1c176f",endColorstr="#15cde5",GradientType=1);
+}

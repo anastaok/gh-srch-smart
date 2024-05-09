@@ -1,0 +1,78 @@
+.oneRepoWrapper {
+  gap: 1rem;
+  display: flex;
+  margin-top: 1rem;
+  position: relative;
+  padding: 0.6em 1.2em;
+  border-radius: 0.5rem;
+  flex-direction: column;
+  background-color: var(--white);
+  border: 1px solid var(--primary-border);
+}
+
+.oneRepoInnerWrapper {
+  gap: 1rem;
+  display: flex;
+  text-align: left;
+  position: relative;
+  align-items: center;
+}
+
+.oneRepoTitle {
+  margin: 0;
+  padding: 0;
+  max-width: 20rem;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: left;
+  word-break: break-all;
+}
+
+.oneRepoStatsWrapper {
+  gap: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media (max-width: 576px) {
+    gap: 0.625rem;
+    align-items: start;
+    flex-direction: column;
+  }
+}
+
+.oneRepoText {
+  font-size: 1em;
+  text-align: left;
+}
+
+.oneRepoStatsText {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 0.625rem;
+  font-size: 1em;
+  text-align: left;
+  align-items: center;
+}
+
+.oneRepoAvatar {
+  border-radius: 50%;
+  max-width: 9.375rem;
+  max-height: 9.375rem;
+  border: 1px solid var(--black-border);
+
+  @media (max-width: 576px) {
+    max-width: 6.25rem;
+    max-height: 6.25rem;
+  }
+}
+
+.favoriteButton {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: none;
+}
